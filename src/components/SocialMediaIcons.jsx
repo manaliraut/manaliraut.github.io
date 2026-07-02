@@ -1,44 +1,35 @@
 import linkedinIcon from "../assets/linkedin.png";
-import twitterIcon from "../assets/twitter.png";
 
 const SocialMediaIcons = () => {
   return (
-    <div className="flex gap-20">
+    <div className="flex flex-wrap gap-8 md:gap-12 items-center text-sm font-opensans">
       <a
-        className="hover:opacity-50 transition duration-500"
+        className="hover:opacity-50 transition duration-500 flex items-center gap-2"
         href="https://www.linkedin.com/in/manali-raut"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src={linkedinIcon} />
-      https://linkedin.com/in/manali-raut
+        <img alt="LinkedIn" src={linkedinIcon} />
+        <span>LinkedIn</span>
       </a>
-     
-   <a
+
+      <a
         className="hover:opacity-50 transition duration-500"
         href="https://medium.com/@manali-raut"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="medium-link" src={twitterIcon} />
-      @manali-raut
+        Medium
       </a>
-    
+
       <a
         className="hover:opacity-50 transition duration-500"
-        target="_blank"
-        rel="noreferrer"
+        href="mailto:manaliraut14@gmail.com"
       >
-        {/*<img alt="email" src="../assets/email.png" />*/}
         manaliraut14@gmail.com
-     </a>
+      </a>
 
-     <a
-        className="hover:opacity-50 transition duration-500"
-        target="_blank"
-        rel="noreferrer">
-        Denver, CO
-     </a>
+      <span>Denver, CO</span>
     </div>
   );
 };
