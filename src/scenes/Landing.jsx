@@ -60,8 +60,8 @@ const Landing = ({ setSelectedPage }) => {
             Masters in Computer Science</p>
              <p className="mt-10 mb-7 text-sm text-center md:text-start">
               <p>University of Colorado, Denver (May 2027)</p>
-            <p>Charter Financial Analyst (CFA) Level 1 (Nov 2022)</p>
-            <p>Design Thinking & Innvoation at Harvard Business School Online (Dec 2023)</p>
+            <p>Chartered Financial Analyst (CFA) Level 1 (Nov 2022)</p>
+            <p>Design Thinking & Innovation at Harvard Business School Online (Dec 2023)</p>
           </p>
         </motion.div>
 
