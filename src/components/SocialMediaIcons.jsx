@@ -1,3 +1,6 @@
+import linkedinIcon from "../assets/linkedin.png";
+import twitterIcon from "../assets/twitter.png";
+
 const SocialMediaIcons = () => {
   return (
     <div className="flex gap-20">
@@ -7,7 +10,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <img alt="linkedin-link" src={linkedinIcon} />
       https://linkedin.com/in/manali-raut
       </a>
      
@@ -17,7 +20,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="medium-link" src="../assets/twitter.png" />
+        <img alt="medium-link" src={twitterIcon} />
       @manali-raut
       </a>
     
